@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+input {
+  width: 70%;
+  padding: 8px;
+  margin-right: 5px;
+}
+
+button {
+  padding: 8px 10px;
+  margin: 3px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
